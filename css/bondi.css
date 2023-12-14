@@ -1,0 +1,149 @@
+:root{
+--dark-color:#0c1826;
+--bs-cyan: #0df0b7;
+--red-color:#c00000;
+--yellow-color:#ffc400;
+--cyan-color:#eff7fa;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+ 
+scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: var(--dark-color);
+}
+.header{
+    background-color: var(--dark-color);
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+    color: var(--bs-cyan);
+}
+.navbar .search{
+    border-left: 1px solid var(--red-color) ;
+    }
+    .navbar .search svg{
+        color: var(--red-color);
+    }
+    .navbar .navbar-toggler{
+        color: white;
+    
+        font-size: 25px;
+        border: 1px solid white;
+    
+    }
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .login,.chechout{
+        transition: all .3s;
+        color: white;
+    }
+
+    .login:hover,.chechout:hover{
+        color: var(--red-color);
+
+    }
+    .landing{
+        background-color:#040615;
+        min-height: calc(100vh - 400px);
+    }
+.mostpopular{
+    background-color: #040615;
+    min-height: calc(100vh - 72px);
+}
+
+/* .card-body{
+    transition: all .3s;
+
+}
+.card-body:hover{
+    background-color: #c00000;
+}
+
+
+
+.card img{
+    transition: all .3s;
+}
+.card img:hover{
+    transform: translateY(-10%);
+} */
+
+
+
+/* cards */
+.mostpopular .card img{
+    transition: all .6s;
+   padding: .3rem;
+
+}
+.mostpopular .card img:hover{
+    transform: translateY(-5%);
+
+}
+.mostpopular .card-body{
+padding: 0.5rem !important;
+
+}
+.card-steam,.card-valorant,.card-roblox,.card-playstaion,.card-pubg,.card-freefire{
+    transition: all 3s;
+    
+}
+.card-steam:hover{
+    background-color: #54595F;
+}
+.card-valorant:hover{
+    background-color: #e84c64;
+}
+.card-playstaion:hover{
+background-color: #0f4180;
+}
+.card-roblox:hover{
+    background-color: #0e461c;
+}
+.card-pubg:hover{
+    background-color: #32393e;
+}
+.card-freefire:hover{
+    background-color: #4e7c98;
+
+}
+/* 7cards */
+.mostproducts{
+    background-color: #040615;
+    
+}
+.mostproducts .main-btn{
+    border: none;
+    background-color: #c00000;
+    transition: all .6s;
+outline: none;
+
+}
+.mostproducts .main-btn:hover{
+    background-color: #32393e;
+}
+
+  .footer{
+    background-color: #0c1826;
+
+  }
+.foot-btn{
+    background-color: black !important;
+    color: #999;
+    transition: all .3s;
+  
+}
+
+.foot-btn:hover{
+border-bottom: 1px white solid;
+
+}
